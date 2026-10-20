@@ -1,3 +1,5 @@
+# 应用入口：FastAPI 初始化、路由注册与启动任务。
+
 import asyncio
 
 from fastapi import FastAPI
