@@ -1,3 +1,5 @@
+# 技能接口：Skill 列表、指令与 MCP 状态。
+
 from fastapi import APIRouter, HTTPException
 
 from app.schemas.skills import McpRuntimeResponse, McpToolResponse, SkillListResponse, SkillManifestResponse, SkillResponse
