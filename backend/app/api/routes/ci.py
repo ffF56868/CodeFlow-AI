@@ -1,3 +1,5 @@
+# CI 分析：运行记录、失败任务与排障建议。
+
 import asyncio
 import json
 import re
