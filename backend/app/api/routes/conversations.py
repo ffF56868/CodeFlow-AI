@@ -1,3 +1,5 @@
+# 会话管理：创建、查询与删除仓库对话。
+
 import uuid
 from typing import Any
 
