@@ -1,3 +1,5 @@
+# 仓库管理：接入、同步、切换与删除。
+
 import os
 import re
 import subprocess
