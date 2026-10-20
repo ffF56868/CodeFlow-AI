@@ -1,3 +1,5 @@
+# GitHub 事件：签名校验与后台同步。
+
 import hashlib
 import hmac
 
