@@ -1,3 +1,5 @@
+# PR 审查：变更分析、代码快照与检查清单。
+
 import asyncio
 import json
 from collections.abc import AsyncIterator
