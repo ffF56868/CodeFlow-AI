@@ -1,3 +1,5 @@
+# 项目索引：后台扫描、状态查询与提醒控制。
+
 import uuid
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
