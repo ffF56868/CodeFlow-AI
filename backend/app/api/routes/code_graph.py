@@ -1,3 +1,5 @@
+# 代码图谱：索引重建、符号查询与关联检索。
+
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query
