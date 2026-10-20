@@ -1,3 +1,5 @@
+# 操作草稿：创建、确认执行与审计记录。
+
 from datetime import datetime, timezone
 from uuid import UUID
 
