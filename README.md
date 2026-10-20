@@ -23,6 +23,20 @@ Codeflow AI 是一个面向 GitHub PR / Issue 研发协作的全栈 AI Agent 项
 - 前端：Next.js、TypeScript、Tailwind CSS、React Query。
 - 基础设施：Docker Compose 与 `.env` 配置。
 
+## 项目结构
+
+| 路径 | 用途 |
+| --- | --- |
+| [backend/](backend/) | FastAPI 后端：AI Agent 编排、GitHub 同步与 RAG 检索 |
+| [docs/](docs/) | 项目文档：架构设计、API 说明与使用示例 |
+| [frontend/](frontend/) | Next.js 前端：仓库管理、Agent 对话与知识库界面 |
+| [scripts/](scripts/) | 开发脚本：环境启动、数据初始化与 GitHub 访问检查 |
+| [.env.example](.env.example) | 环境变量示例：模型服务、数据库与 GitHub 配置 |
+| [.gitignore](.gitignore) | Git 忽略规则：本地配置、依赖、缓存与运行数据 |
+| [README.md](README.md) | 项目介绍、功能概览与快速启动指南 |
+| [docker-compose.local.yml](docker-compose.local.yml) | 本机基础服务编排：调整 Milvus 端口以避免冲突 |
+| [docker-compose.yml](docker-compose.yml) | 基础服务编排：PostgreSQL、Milvus 及其依赖 |
+
 ## 架构
 
 ```mermaid
