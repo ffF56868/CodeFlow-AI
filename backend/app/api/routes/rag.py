@@ -1,3 +1,5 @@
+# RAG 服务：文档处理、混合检索与引用问答。
+
 import asyncio
 import hashlib
 import re
