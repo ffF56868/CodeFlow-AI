@@ -1,3 +1,5 @@
+# 工程报告：周报生成与仓库健康分析。
+
 from datetime import date, datetime, time, timezone
 
 from fastapi import APIRouter, Depends, HTTPException
