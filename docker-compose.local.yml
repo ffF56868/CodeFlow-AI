@@ -1,3 +1,5 @@
+# 本机基础服务编排：使用独立的 Milvus 宿主机端口，避免与其他项目冲突。
+# 从仓库根目录运行：docker compose -f docker-compose.local.yml up -d postgres etcd minio milvus
 # 本机专用编排：基于 docker-compose.yml，仅调整与其他项目冲突的宿主机端口。
 # Milvus 宿主机端口 19530/9091 已被 medical-health-assistant-milvus-1 占用，
 # 这里改用 19540/9095；容器内部端口不变。postgres/minio 端口当前空闲，保持原样。
