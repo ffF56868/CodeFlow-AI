@@ -1,3 +1,5 @@
+# 质量评测：RAGAS 评分、结果对比与重新评分。
+
 import asyncio
 import hashlib
 import json
