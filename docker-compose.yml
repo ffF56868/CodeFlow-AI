@@ -1,3 +1,6 @@
+# 基础服务编排：PostgreSQL、Milvus 及其 etcd、对象存储依赖；Redis 为可选服务。
+# 从仓库根目录运行：docker compose up -d postgres etcd minio milvus
+# 后端与前端的启动步骤见 README.md。
 services:
   postgres:
     image: pgvector/pgvector:pg16
