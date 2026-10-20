@@ -1,3 +1,5 @@
+# 知识检索：语义搜索与元数据条件过滤。
+
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
